@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MBB'18</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        a,a:hover,a:active,a:focus{
+            text-decoration: none;
+            color: #fff;
+        }
+        .header,.footer{
+            width: 100%;
+            background-color: #004296;
+            padding: 20px 0;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+        }
+        .header img,.logo img{
+            margin: 0;
+            padding: 0;
+        }
+        .content,.container{
+            margin: 0 10%;
+        }
+        .content p{
+            font-size: 22px;
+            color: #464545;
+            padding: 50px;
+        }
+        .footer .container{
+            display: flex;
+            justify-content:center;
+        }
+        h2{
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        i{
+            margin-right: 10px;
+            color: #fff;
+            float: left;
+            font-size: 25px !important;
+        }
+        .footer .info div{
+            margin-bottom: 30px;
+        }
+        .footer p{
+            color: #fff;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="header">
+       <img src="http://www.ieeepuasb.org/images/ieee-logo.png" alt="ieee pua sb logo">
+   </div>
+   <div class="content">
+       <p>'Dear '. ucfirst($name) .',<br/>We appreciate your interest to attend MBB’18, Thank you!.<br/>This email is to confirm that your registration was successful.<br/>Your serial code is:<b>' . $code . '</b><br/>Please bring it with you to our registration desk to pay the fees and receive your ticket.<br/>Wish you have a great time with us this year.<br/>Best Regards,<br/>IEEE PUA SB'</p>
+   </div>
+   <div class="footer">
+       <div class="container">
+          <div class="info">
+              <h2>Contact Information</h2>        
+          <div>
+             <i class="fa fa-map-marker" aria-hidden="true"></i> 
+             <p>
+                PUA, Canal El Mahmoudia Street,Ezbet El-Nozha, Qism Sidi Gabir,<br>
+                Alexandria Governorate,<br>
+                Egypt
+             </p>
+          </div>
+          <div>
+             <i class="fa fa-phone" aria-hidden="true"></i> 
+             <a href="tel:01061396963">01061396963 - </a>
+             <a href="tel:01141722689">01141722689 - </a>
+             <a href="tel:01222474955">01222474955</a>
+          </div>
+          <div>
+             <i class="fa fa-envelope-o" aria-hidden="true"></i>
+             <p>
+                 contact@ieeepuasb.org
+             </p>
+          </div>
+          </div> 
+       </div>
+   </div> 
+</body>
+</html>
